@@ -11,18 +11,7 @@ Features
 10. THREATS.md, PROMPTS.md, API documentation and deployment.
 
 
-2. Technology choices
+2. Technology used
 Part	Technology
 Frontend	React + Vite
 Backend	Python + FastAPI
-Database	PostgreSQL + SQLAlchemy
-Authentication	JWT + password hashing
-Testing	Pytest
-Local file storage	Private backend folder
-Deployment	Render + Vercel
-
-For the first version, we'll store files in a private folder outside the frontend. For production, use persistent private storage; don't deploy uploaded files to an ephemeral filesystem.
-
-Strucuture
-
-Trustvault.png
