@@ -24,42 +24,6 @@ Deployment	Render + Vercel
 For the first version, we'll store files in a private folder outside the frontend. For production, use persistent private storage; don't deploy uploaded files to an ephemeral filesystem.
 
 Strucuture
-TrustVault/
-│
-├── backend/
-│   ├── app/
-│   │   ├── __init__.py
-│   │   ├── main.py
-│   │   ├── database.py
-│   │   ├── models.py
-│   │   ├── schemas.py
-│   │   ├── security.py
-│   │   ├── dependencies.py
-│   │   ├── audit.py
-│   │   └── routers/
-│   │       ├── __init__.py
-│   │       ├── auth.py
-│   │       ├── documents.py
-│   │       ├── permissions.py
-│   │       └── admin.py
-│   │
-│   ├── tests/
-│   │   ├── test_auth.py
-│   │   └── test_document_security.py
-│   ├── private_uploads/
-│   ├── requirements.txt
-│   └── .env
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── package.json
-│   └── .env
-│
-├── THREATS.md
-├── PROMPTS.md
-└── README.md
+## TrustVault Project Architecture
+
+![TrustVault Folder Structure](trustvault-structure.png)
