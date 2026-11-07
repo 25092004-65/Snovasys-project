@@ -23,10 +23,7 @@ Deployment	Render + Vercel
 
 For the first version, we'll store files in a private folder outside the frontend. For production, use persistent private storage; don't deploy uploaded files to an ephemeral filesystem.
 
-
-3. Complete folder structure
-   
-Create a main folder named TrustVault:
+Strucuture
 TrustVault/
 │
 ├── backend/
