@@ -24,6 +24,4 @@ Deployment	Render + Vercel
 For the first version, we'll store files in a private folder outside the frontend. For production, use persistent private storage; don't deploy uploaded files to an ephemeral filesystem.
 
 Strucuture
-## TrustVault Project Architecture
 
-![TrustVault Folder Structure](trustvault-structure.png)
