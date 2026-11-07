@@ -25,3 +25,4 @@ For the first version, we'll store files in a private folder outside the fronten
 
 Strucuture
 
+Trustvault.png
