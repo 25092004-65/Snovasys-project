@@ -1,0 +1,5 @@
+[
+  "tests/test_document_security.py::test_private_document_not_visible_to_other_user",
+  "tests/test_document_security.py::test_revoke_access_blocks_next_download",
+  "tests/test_document_security.py::test_viewer_cannot_upload"
+]
